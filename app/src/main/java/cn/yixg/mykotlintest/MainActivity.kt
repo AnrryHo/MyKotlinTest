@@ -47,6 +47,9 @@ class MainActivity : AppCompatActivity() {
 
 //        async.await()//await方法被suspend修饰，只能在协程中调用
 
+        val hello:String
+        val world:String
+
     }
 
     suspend fun test(){}//被关键字修饰的方法只能在子线程中调用，不能在主线程中运行
