@@ -12,9 +12,9 @@ annotation class path{}
 @path fun test(){}
 @path var s:String?=""
 
+
+
 //反射
-
-
 fun main(args: Array<String>) {
     //得到字节码文件的两种方式
     val clazz = Person::class.java
